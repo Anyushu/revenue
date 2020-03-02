@@ -1,0 +1,41 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "Hiragino Sans", "ヒラギノ角ゴシック", sans-serif;
+  color: #222;
+}
+
+.sec {
+  padding: 100px 0;
+}
+.ttl2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+.btn {
+  position: relative;
+  line-height: 1;
+  padding: 1em 5em;
+  max-width: 300px;
+}
+
+.btn::after {
+  position: absolute;
+  content: '>';
+  top: 50%;
+  right: .5em;
+  line-height: 1;
+  margin-top: -.5em;
+}
+
+.btn-primary {
+  color: #222;
+  background-color: #fff600;
+  border-color: #fff600;
+}
+
+.btn-primary:hover {
+  background-color: #e3da07;
+  border-color: #e3da07;
+  color: #222;
+}
