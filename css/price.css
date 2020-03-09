@@ -1,0 +1,35 @@
+.mv-sub {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/mv_price.png');
+}
+
+.tab-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: .8rem;
+  margin: 0 auto 1.5rem auto;
+  border-bottom: solid 1px #e60012;
+  background-size: 10px 10px;
+  background-color: #f7f7f7;
+  background-image: radial-gradient(#eee 15%, transparent 20%),
+    radial-gradient(#eee 15%, transparent 20%);
+  background-position: 0 0, 5px 5px;
+}
+
+.tab-content h4 {
+  font-size: 18px;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  border-left: solid 2px #e60012;
+  margin: 0 auto 1.5rem auto;
+}
+
+.table-wrap th,
+.table-wrap td {
+  font-size: .875rem;
+}
+
+.table-wrap th {
+  white-space: nowrap;
+}
