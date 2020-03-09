@@ -230,6 +230,14 @@ footer .totop {
     padding: .8rem !important;
   }
 
+  .ttl2 {
+    font-size: 1.4rem;
+  }
+
+  .ttl2 span {
+    font-size: .8rem;
+  }
+
   .logo img {
     width: 150px;
     height: auto;

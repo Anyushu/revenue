@@ -1,3 +1,17 @@
 .mv-sub {
   background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/mv_service.png');
 }
+
+.works {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/bg_top.png');
+}
+
+@media (max-width:768px) {
+  .service-ttl .h1 {
+    font-size: 1.6rem;
+  }
+
+  .service-lead {
+    font-size: 1rem;
+  }
+}
