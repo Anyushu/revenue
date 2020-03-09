@@ -1,0 +1,81 @@
+.mv {
+  background: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/bg_mv.png') no-repeat center center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding: 10rem 0;
+}
+
+.mv h2 {
+  font-size: 90px;
+  text-shadow: 0 0 5px #000;
+}
+
+.mv p {
+  font-size: 26px;
+  text-shadow: 0 0 5px #000;
+}
+
+.top-about {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/bg_top.png');
+}
+
+.top-sns {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/bg_online_salon.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-sns .sns {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+.top-area {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/bg_area.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arealist {
+  width: 50%;
+  margin-top: 3rem;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+
+@media (max-width: 991px) {
+  .arealist {
+    width: 100%;
+  }
+}
+
+@media (max-width:768px) {
+  .mv {
+    padding: 3rem 0;
+  }
+
+  .mv h2 {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+  }
+
+  .mv p {
+    font-size: .875rem;
+  }
+
+  .top-about .inner h3 {
+    font-size: 1rem;
+  }
+
+  .sns .d-flex>div {
+    width: 49% !important;
+    margin-top: 10px;
+  }
+
+  .sns .d-flex>div .btn {
+    padding: 9px 0;
+    font-size: .7rem;
+  }
+}

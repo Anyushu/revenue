@@ -1,7 +1,7 @@
-# Revenue
+# Revenue（サイト制作）
 
 ## クライアント名
-個人事務所Revenueincrease
+個人事務所 Revenue increase
 
 ## 制作範囲
 独自CMS 組み込み(コーディング含む)・公開まで

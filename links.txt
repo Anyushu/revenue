@@ -1,0 +1,7 @@
+トップページ：/
+代表者プロフィール：/profile
+事業内容：/service
+料金のご案内：/price
+お客様の声：/voice
+ブログ：/blog
+事務所概要：/about
