@@ -48,6 +48,11 @@ p {
   background-color: #e60012;
 }
 
+.ttl2-2::after {
+  left: 0;
+  margin-left: -0;
+}
+
 .ttl2 span {
   display: block;
   font-size: .8rem;
@@ -119,6 +124,10 @@ p {
   font-size: .875rem;
   border-left: solid 1px #fff;
   padding: 0 1rem !important;
+}
+
+.navbar .nav-item:first-child .nav-link {
+  border-left: 0;
 }
 
 mark {
@@ -352,5 +361,11 @@ footer .totop {
 @media (max-width:768px) {
   .tab-pane {
     padding: 1.5rem .8rem;
+  }
+}
+
+@media (min-width:769px) {
+  a[href^="tel:"] {
+    pointer-events: none;
   }
 }

@@ -44,6 +44,37 @@
   margin-left: auto;
 }
 
+.webgene-item {
+  margin-bottom: 1rem;
+}
+
+.webgene-item a header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.webgene-item a header .webgene-item-info span {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 100px;
+  font-size: .875rem;
+}
+
+.webgene-item a header .webgene-item-info time {
+  font-size: .875rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.webgene-item a header h2 {
+  font-size: .875rem;
+  margin: 0;
+}
+
 @media (max-width: 991px) {
   .arealist {
     width: 100%;
@@ -77,5 +108,10 @@
   .sns .d-flex>div .btn {
     padding: 9px 0;
     font-size: .7rem;
+  }
+
+  .webgene-item a header h2 {
+    width: 100%;
+    margin-top: .5rem;
   }
 }

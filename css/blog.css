@@ -1,0 +1,151 @@
+.mv-sub {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/mv_blog.png');
+}
+
+.blog-list .webgene-item {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: solid 1px #eee;
+}
+
+.blog-list .webgene-item a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #222;
+}
+
+.blog-list .webgene-item a .webgene-item-info span {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 100px;
+  font-size: .875rem;
+}
+
+.blog-list .webgene-item a .webgene-item-info time {
+  font-size: .875rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.blog-list .webgene-item a .blogItemTitle {
+  display: block;
+  font-size: .875rem;
+  width: 100%;
+  margin-top: .5rem;
+}
+
+.webgene-pagination {
+  margin-top: 3rem;
+}
+
+.webgene-pagination ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+
+.webgene-pagination ul li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0 .3rem;
+}
+
+.webgene-pagination ul li a {
+  color: #222;
+}
+
+.webgene-pagination ul li a:hover {
+  color: #e60012;
+}
+
+.sidebar .sidettl {
+  background-color: #e60012;
+  color: #fff;
+  font-size: 1.1rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding: .5em;
+}
+
+.sidebar .webgene-blog {
+  margin-bottom: 2rem;
+}
+
+.sidebar .webgene-item {
+  margin-bottom: .8rem;
+}
+
+.sidebar .webgene-item a {
+  color: #222;
+}
+
+.sidebar .webgene-item a::before {
+  content: '▶';
+  margin-right: .3rem;
+  color: #e60012;
+}
+
+.webgene-detail .webgene-header span {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  background-color: #222;
+  color: #fff;
+  border-radius: 100px;
+  font-size: .875rem;
+}
+
+.webgene-detail .webgene-header time {
+  font-size: .875rem;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.post-main .webgene-header h2 {
+  margin-top: 1em;
+  padding-bottom: 1rem;
+  border-bottom: solid 1px #eee;
+}
+
+.message-box {
+  margin-top: 3rem;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border: solid 2px #e60012;
+  margin-bottom: 4rem;
+}
+
+.message-box+.inner p {
+  border: solid 2px #e60012;
+  border-top: 0;
+  padding: 1.5rem;
+}
+
+@media (max-width:768px) {
+  .message-box {
+    padding: 1.5rem 1rem;
+  }
+
+  .message-box .d-flex>div {
+    width: 49% !important;
+  }
+
+  .message-box .d-flex>div.w-100 {
+    margin-top: 0 !important;
+  }
+
+  .message-box .d-flex>div .btn {
+    padding: .6rem .9rem;
+  }
+
+  .message-box+.inner p {
+    padding: 1.5rem 1rem;
+  }
+}

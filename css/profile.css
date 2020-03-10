@@ -1,0 +1,19 @@
+.mv-sub {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/mv_message.png');
+}
+
+.message-box {
+  margin-top: 3rem;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border: solid 2px #e60012;
+}
+
+@media (max-width:768px) {
+  .message-box .d-flex>div {
+    width: 49%;
+  }
+  .message-box .d-flex>div .btn {
+    padding: .6rem .9rem;
+  }
+}

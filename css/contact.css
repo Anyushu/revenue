@@ -1,0 +1,58 @@
+.mv-sub {
+  background-image: url('https://revenue-increase200121.smooooth.jp/system_panel/uploads/images/mv_contact.png');
+}
+
+.contact p.big {
+  font-size: 120% !important;
+}
+
+.contact .tel a {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.contact .tel a+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.form table th,
+.form table td {
+  font-size: .875rem;
+  overflow: hidden;
+}
+
+.form table th {
+  color: #e60012;
+}
+
+.form table th .must {
+  font-weight: normal;
+  color: #222;
+  float: right;
+}
+
+@media (max-width:768px) {
+  .contact .tel a {
+    font-size: 2rem;
+  }
+
+  .contact p.big {
+    font-size: 110% !important;
+  }
+
+  .form table th,
+  .form table td {
+    display: block;
+  }
+
+  .form table th {
+    border-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .form table td {
+    border-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
