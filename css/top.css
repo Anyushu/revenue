@@ -110,6 +110,22 @@
     font-size: .7rem;
   }
 
+  .sns.col-11 {
+    width: 100% !important;
+    max-width: 100%;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .sns.col-11 .w-100 .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .sns.col-11 .w-100 .container .row {
+    flex-flow: column-reverse;
+  }
+
   .webgene-item a header h2 {
     width: 100%;
     margin-top: .5rem;

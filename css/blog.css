@@ -128,6 +128,15 @@
   padding: 1.5rem;
 }
 
+.bg-red.text-white.m-0.p-3.h5 {
+  border: 0 !important;
+}
+
+.w-100.py-4.px-md-4.px-3 {
+  border: solid 1px #e60012 !important;
+  border-top: 0 !important;
+}
+
 @media (max-width:768px) {
   .message-box {
     padding: 1.5rem 1rem;
@@ -147,5 +156,14 @@
 
   .message-box+.inner p {
     padding: 1.5rem 1rem;
+  }
+
+  .sns .w-100 .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .sns .w-100 .container .row {
+    flex-flow: column-reverse;
   }
 }
